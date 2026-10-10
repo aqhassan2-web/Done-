@@ -1,0 +1,11 @@
+{
+  "appId": "com.munjiz.tasks",
+  "appName": "منجِز",
+  "webDir": "www",
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_munjiz",
+      "iconColor": "#3A62E0"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "munjiz-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "منجِز - تطبيق مهام عربي لأندرويد وآيفون",
+  "scripts": {
+    "setup": "node scripts/setup.mjs android",
+    "setup:ios": "node scripts/setup.mjs ios",
+    "sync": "cap sync",
+    "android": "cap open android",
+    "ios": "cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/app": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/filesystem": "latest",
+    "@capacitor/haptics": "latest",
+    "@capacitor/ios": "latest",
+    "@capacitor/local-notifications": "latest",
+    "@capacitor/preferences": "latest",
+    "@capacitor/share": "latest",
+    "@capacitor/status-bar": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "latest",
+    "@capacitor/cli": "latest"
+  }
+}
